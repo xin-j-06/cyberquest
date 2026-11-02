@@ -1,0 +1,17 @@
+.workspace-agent-link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #6079ec, #795be1);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 10px 24px #546bdd35;
+}
+
+.workspace-agent-link:hover { filter: brightness(1.08); }
+.workspace-agent-link span { font-size: 17px; }

@@ -1,0 +1,256 @@
+html[data-theme="dark"] { color-scheme: dark; --ink: #e8edf8; --mute: #8f9bb3; --night: #0b1020; --panel: #11192d; --line: #29344d; }
+html[data-theme="dark"] body {
+  color: #e8edf8;
+  background: linear-gradient(180deg, #0c1221 0, #0b1020 55%, #0d1324 100%);
+}
+html[data-theme="dark"] body::before {
+  opacity: .28;
+  background-image: linear-gradient(rgba(128, 151, 211, .08) 1px, transparent 1px), linear-gradient(90deg, rgba(128, 151, 211, .08) 1px, transparent 1px);
+}
+html[data-theme="dark"] #app > header {
+  color: #e8edf8;
+  background: rgba(12, 18, 33, .94);
+  border-color: #28324a;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, .2);
+}
+html[data-theme="dark"] #app > .site-header.is-collapsed { border-color: #2d3951; background: rgba(12,18,33,.97); }
+html[data-theme="dark"] .site-header-toggle { border-color: #303c56; background: rgba(20,29,49,.98); color: #9ba8c2; box-shadow: none; }
+html[data-theme="dark"] .site-header-toggle:hover { border-color: #5368b5; color: #b6c6ff; }
+html[data-theme="dark"] #app > .site-header.is-collapsed .site-header-toggle { border-color: #303c56; border-top: 0; background: rgba(20,29,49,.99); box-shadow: 0 6px 18px rgba(0,0,0,.24); }
+html[data-theme="dark"] .brand { color: #f1f4fb; }
+html[data-theme="dark"] .brand small,
+html[data-theme="dark"] nav,
+html[data-theme="dark"] .top-status { color: #98a4bc; }
+html[data-theme="dark"] nav a:hover,
+html[data-theme="dark"] nav a.router-link-active { color: #fff; }
+
+html[data-theme="dark"] .account-trigger {
+  color: #edf1fa;
+  background: #141d31;
+  border-color: #303b55;
+}
+html[data-theme="dark"] .account-trigger:hover,
+html[data-theme="dark"] .account-trigger.active { border-color: #6071ce; box-shadow: 0 8px 28px rgba(0,0,0,.24); }
+html[data-theme="dark"] .account-dropdown {
+  color: #e8edf8;
+  background: rgba(18, 26, 44, .99);
+  border-color: #303b55;
+  box-shadow: 0 24px 70px rgba(0,0,0,.45);
+}
+html[data-theme="dark"] .account-dropdown::before { border-color: #35415b; background: #19243b; }
+html[data-theme="dark"] .account-dropdown > header { border-color: #2b354c; }
+html[data-theme="dark"] .account-dropdown > header span,
+html[data-theme="dark"] .account-dropdown > a small,
+html[data-theme="dark"] .account-dropdown > button small { color: #929eb6; }
+html[data-theme="dark"] .account-dropdown > a,
+html[data-theme="dark"] .account-dropdown > button { color: #dce3f3; }
+html[data-theme="dark"] .account-dropdown > a:hover,
+html[data-theme="dark"] .account-dropdown > button:hover { background: #202a42; }
+html[data-theme="dark"] .account-dropdown > .account-logout { border-color: #2b354c; }
+
+html[data-theme="dark"] .page-title,
+html[data-theme="dark"] .home-intro h1,
+html[data-theme="dark"] .knowledge-intro h1,
+html[data-theme="dark"] .domain-overview,
+html[data-theme="dark"] .competition-heading h1,
+html[data-theme="dark"] .experience-heading h1,
+html[data-theme="dark"] .learning-banner h1,
+html[data-theme="dark"] .skill-path-heading h1,
+html[data-theme="dark"] .knowledge-doc-page,
+html[data-theme="dark"] .knowledge-article-page { color: #e8edf8; }
+html[data-theme="dark"] .subtitle,
+html[data-theme="dark"] .home-intro p,
+html[data-theme="dark"] .knowledge-intro p,
+html[data-theme="dark"] .domain-overview > p,
+html[data-theme="dark"] .competition-heading p,
+html[data-theme="dark"] .experience-heading p,
+html[data-theme="dark"] .learning-banner p,
+html[data-theme="dark"] .skill-path-heading p { color: #9aa6bd; }
+
+html[data-theme="dark"] .home-stats article,
+html[data-theme="dark"] .next-board,
+html[data-theme="dark"] .activity-card,
+html[data-theme="dark"] .rank-card,
+html[data-theme="dark"] .catalog-controls,
+html[data-theme="dark"] .mission-card,
+html[data-theme="dark"] .metric-row article,
+html[data-theme="dark"] .session-board,
+html[data-theme="dark"] .current-session,
+html[data-theme="dark"] .knowledge-intro aside,
+html[data-theme="dark"] .knowledge-search,
+html[data-theme="dark"] .domain-tabs button,
+html[data-theme="dark"] .knowledge-card,
+html[data-theme="dark"] .knowledge-method,
+html[data-theme="dark"] .competition-card,
+html[data-theme="dark"] .skill-roadmap,
+html[data-theme="dark"] .skill-roadmap > header,
+html[data-theme="dark"] .skill-path-node,
+html[data-theme="dark"] .skill-inspector,
+html[data-theme="dark"] .article-heading,
+html[data-theme="dark"] .article-toc,
+html[data-theme="dark"] .article-content > section,
+html[data-theme="dark"] .doc-back,
+html[data-theme="dark"] .doc-code,
+html[data-theme="dark"] .article-tools > article {
+  color: #e7ecf7;
+  background: #121a2d;
+  border-color: #2b3650;
+  box-shadow: 0 12px 30px rgba(0,0,0,.16);
+}
+html[data-theme="dark"] .home-stats b,
+html[data-theme="dark"] .next-board header h2,
+html[data-theme="dark"] .next-task h3,
+html[data-theme="dark"] .next-task > b,
+html[data-theme="dark"] .mission-card h2,
+html[data-theme="dark"] .mission-card footer b,
+html[data-theme="dark"] .metric-row b,
+html[data-theme="dark"] .task-line h3,
+html[data-theme="dark"] .line-points b,
+html[data-theme="dark"] .knowledge-intro aside b,
+html[data-theme="dark"] .knowledge-card,
+html[data-theme="dark"] .competition-card h2,
+html[data-theme="dark"] .competition-card-foot b,
+html[data-theme="dark"] .skill-path-heading dt,
+html[data-theme="dark"] .skill-roadmap,
+html[data-theme="dark"] .skill-path-node,
+html[data-theme="dark"] .skill-inspector > h2,
+html[data-theme="dark"] .skill-inspector-progress > div b,
+html[data-theme="dark"] .skill-inspector-meta b { color: #e7ecf7; }
+html[data-theme="dark"] .home-stats span,
+html[data-theme="dark"] .home-stats small,
+html[data-theme="dark"] .next-task p,
+html[data-theme="dark"] .mission-card > p,
+html[data-theme="dark"] .mission-card footer,
+html[data-theme="dark"] .metric-row span,
+html[data-theme="dark"] .metric-row small,
+html[data-theme="dark"] .task-line p,
+html[data-theme="dark"] .knowledge-card > p,
+html[data-theme="dark"] .competition-card > p,
+html[data-theme="dark"] .skill-path-node > p,
+html[data-theme="dark"] .skill-inspector > p,
+html[data-theme="dark"] .doc-section > p,
+html[data-theme="dark"] .doc-topic p,
+html[data-theme="dark"] .doc-tool p { color: #98a5bd; }
+html[data-theme="dark"] .next-task,
+html[data-theme="dark"] .activity-line,
+html[data-theme="dark"] .mission-meta,
+html[data-theme="dark"] .competition-card-foot,
+html[data-theme="dark"] .skill-stage,
+html[data-theme="dark"] .skill-roadmap > header,
+html[data-theme="dark"] .knowledge-intro,
+html[data-theme="dark"] .knowledge-card > footer { border-color: #29344b; }
+html[data-theme="dark"] .next-task:hover,
+html[data-theme="dark"] .catalog-controls .catalog-tabs,
+html[data-theme="dark"] .concept-list > article,
+html[data-theme="dark"] .workflow-list li,
+html[data-theme="dark"] .article-toc > div { background: #182238; }
+html[data-theme="dark"] .secondary-link,
+html[data-theme="dark"] .knowledge-search > button,
+html[data-theme="dark"] .article-back { color: #d7deef; background: #151f34; border-color: #303b54; }
+html[data-theme="dark"] .domain-tabs button.active { background: #3348a9; border-color: #5369d3; }
+html[data-theme="dark"] .knowledge-card > div span,
+html[data-theme="dark"] .skill-node-topics span,
+html[data-theme="dark"] .competition-tags > i { color: #aeb9cf; background: #182238; border-color: #303b53; }
+html[data-theme="dark"] .knowledge-method aside { background: #0d1528; }
+html[data-theme="dark"] .skill-path-node:hover,
+html[data-theme="dark"] .skill-path-node.selected { background: #172138; }
+html[data-theme="dark"] .skill-tool-list > div,
+html[data-theme="dark"] .skill-evidence-list li { background: #182238; border-color: #303b53; }
+html[data-theme="dark"] .skill-tool-list b,
+html[data-theme="dark"] .skill-prerequisite b,
+html[data-theme="dark"] .skill-next b { color: #dce3f3; }
+html[data-theme="dark"] .skill-prerequisite { background: #182442; }
+html[data-theme="dark"] .skill-next { background: #132d29; }
+
+html[data-theme="dark"] .profile-page { color: #e8edf8; }
+html[data-theme="dark"] .profile-overview { background: #121a2d; border-color: #2b3650; }
+html[data-theme="dark"] .profile-hero { color: #e8edf8; background: linear-gradient(140deg,#141d31,#121a2d); border-color: #2b3650; }
+html[data-theme="dark"] .profile-hero h1,
+html[data-theme="dark"] .profile-level b { color: #e8edf8; }
+html[data-theme="dark"] .profile-hero p,
+html[data-theme="dark"] .profile-level span,
+html[data-theme="dark"] .profile-level small { color: #98a5bd; }
+html[data-theme="dark"] .profile-badges > span { color: #aeb9cf; background: #1a243a; border-color: #303b53; }
+html[data-theme="dark"] .profile-level { border-color: #2b3650; }
+html[data-theme="dark"] .profile-level > i { background: #29344b; }
+html[data-theme="dark"] .profile-stats article,
+html[data-theme="dark"] .profile-notes,
+html[data-theme="dark"] .profile-side > section,
+html[data-theme="dark"] .profile-next { color: #e8edf8; background: #121a2d; border-color: #2b3650; box-shadow: 0 12px 34px rgba(0,0,0,.18); }
+html[data-theme="dark"] .profile-stats { background: #121a2d; }
+html[data-theme="dark"] .profile-stats article { border-color: #2b3650; box-shadow: none; }
+html[data-theme="dark"] .profile-stats article > b,
+html[data-theme="dark"] .profile-empty > b { color: #e8edf8; }
+html[data-theme="dark"] .profile-stats article > span,
+html[data-theme="dark"] .profile-stats article > small,
+html[data-theme="dark"] .profile-note-list p,
+html[data-theme="dark"] .profile-note-list small,
+html[data-theme="dark"] .profile-empty,
+html[data-theme="dark"] .profile-completed > p,
+html[data-theme="dark"] .profile-storage p { color: #98a5bd; }
+html[data-theme="dark"] .profile-notes > header,
+html[data-theme="dark"] .profile-side section > header,
+html[data-theme="dark"] .profile-note-list > article,
+html[data-theme="dark"] .profile-completed > a { border-color: #29344b; }
+html[data-theme="dark"] .profile-storage { background: #182238 !important; }
+html[data-theme="dark"] .profile-empty-steps span { color: #aeb9cf; background: #182238; border-color: #303b53; }
+html[data-theme="dark"] .profile-note-list .note-delete { color: #aab5c9; background: #182238; border-color: #303b53; }
+html[data-theme="dark"] .note-modal > article { color: #e8edf8; background: #121a2d; border-color: #303b53; }
+html[data-theme="dark"] .note-modal header,html[data-theme="dark"] .note-modal footer { border-color: #29344b; }
+html[data-theme="dark"] .note-modal header button { color: #b5bfd2; background: #1a243a; border-color: #303b53; }
+html[data-theme="dark"] .note-modal pre { color: #cdd5e7; scrollbar-color: #46536c #1a243a; }
+html[data-theme="dark"] .note-modal footer .danger { color: #ff9ba8; background: #1a243a; border-color: #653946; }
+html[data-theme="dark"] .profile-skills > div > i { background: #29344b; }
+html[data-theme="dark"] .profile-next-index { border-color: #2b3650; }
+html[data-theme="dark"] .profile-next-index b { color: #364056; }
+html[data-theme="dark"] .profile-next-copy h2,
+html[data-theme="dark"] .profile-next > aside b { color: #e8edf8; }
+html[data-theme="dark"] .profile-next-copy p { color: #98a5bd; }
+html[data-theme="dark"] .profile-next-copy > div i { color: #aeb9cf; background: #182238; border-color: #303b53; }
+
+html[data-theme="dark"] .focus-workspace {
+  --wb-ink: #e7ecf7;
+  --wb-copy: #a3aec4;
+  --wb-muted: #8693ab;
+  --wb-line: #2a354d;
+  --wb-paper: #11192c;
+  --wb-canvas: #0b1120;
+  --wb-blue: #7185ff;
+  --wb-blue-dark: #5d72ef;
+  --wb-blue-wash: #1a2440;
+  --wb-green: #54c796;
+  --wb-green-wash: #132d29;
+}
+html[data-theme="dark"] .focus-workspace .challenge-surface .goal-panel,
+html[data-theme="dark"] .focus-workspace .workspace-tabs,
+html[data-theme="dark"] .focus-workspace .submit-row,
+html[data-theme="dark"] .focus-workspace .result,
+html[data-theme="dark"] .focus-workspace .resource-note { background: #121a2d; }
+html[data-theme="dark"] .focus-workspace .banner-tags i,
+html[data-theme="dark"] .focus-workspace .submission-count,
+html[data-theme="dark"] .focus-workspace .target-health { color: #9da9bf; background: #182238; border-color: #303b53; }
+html[data-theme="dark"] .focus-workspace .outline,
+html[data-theme="dark"] .focus-workspace .completion-actions .outline,
+html[data-theme="dark"] .focus-workspace .session-controls .outline.danger { color: #dce3f3; background: #182238; border-color: #34415d; }
+html[data-theme="dark"] .focus-workspace .solve-success-notice,
+html[data-theme="dark"] .focus-workspace .result.good,
+html[data-theme="dark"] .focus-workspace .completion-panel { background: #132d29; }
+html[data-theme="dark"] .focus-workspace .result.error { background: #351b25; }
+html[data-theme="dark"] .focus-workspace .notes-pane > textarea,
+html[data-theme="dark"] .focus-workspace .note-toolbar,
+html[data-theme="dark"] .focus-workspace .notes-pane > footer { color: #dce3f3; background-color: #11192c; border-color: #2a354d; }
+html[data-theme="dark"] .focus-workspace .guide-summary,
+html[data-theme="dark"] .focus-workspace .guide-principle,
+html[data-theme="dark"] .focus-workspace .guide-step { background: #182238; border-color: #303b53; }
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea { color-scheme: dark; }
+
+.announcement-card header > span:last-child { color: #8b96aa; font-size: 11px; }
+.announcement-card .activity-line > i { background: #df963f; }
+.announcement-card .activity-line p { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-height: 1.55; }
+.announcement-card .activity-line small { display: block; margin-top: 5px; color: #a0a8b7; font-size: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .account-dropdown { animation: none; }
+}

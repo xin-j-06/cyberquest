@@ -1,0 +1,4 @@
+.home-calendar { min-height: 455px; }
+.calendar-loading { min-height: 340px; display: grid; place-items: center; color: #8792a7; font-size: 12px; }
+.calendar-error { margin: 0; padding: 10px 20px; border-top: 1px solid #f1d4d9; background: #fff4f5; color: #b34457; font-size: 10px; }
+@media (max-width: 620px) { .home-calendar { min-height: 0; } }

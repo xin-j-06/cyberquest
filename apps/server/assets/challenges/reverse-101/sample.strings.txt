@@ -1,0 +1,9 @@
+# strings sample.bin
+usage: sample <input>
+validation failed
+license accepted
+compare_token
+result_buffer
+training build 1.0
+
+# This is a harmless synthetic string listing for static-analysis practice.

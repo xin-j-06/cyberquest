@@ -1,0 +1,5 @@
+timestamp,source,destination,protocol,method,path,status,latency_ms
+2026-09-10T10:03:01Z,10.20.0.12,assets.local,HTTP,GET,/app.css,200,12
+2026-09-10T10:03:04Z,10.20.0.12,api.local,HTTP,GET,/profile,200,18
+2026-09-10T10:03:05Z,10.20.0.12,sync.invalid,HTTP,POST,/export,500,941
+2026-09-10T10:03:08Z,10.20.0.12,assets.local,HTTP,GET,/logo.svg,304,7

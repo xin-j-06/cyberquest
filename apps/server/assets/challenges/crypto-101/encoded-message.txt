@@ -1,0 +1,6 @@
+CyberQuest training attachment
+Encoding layers: 2
+Outer payload:
+NjU3NjY5NjQ2NTZlNjM2NTNhMjA2NDY1NjM2ZjY0NjUyMDQyNjE3MzY1MzYzNDIwNjY2OTcyNzM3NDJjMjA3NDY4NjU2ZTIwNjg2NTc4NjE2NDY1NjM2OTZkNjE2YzJl
+
+Task: identify each representation before decoding. Record the output of both steps.
